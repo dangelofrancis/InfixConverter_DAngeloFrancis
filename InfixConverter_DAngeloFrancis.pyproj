@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ede55d52-b8bf-401e-b2f8-f2ec86c283e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>InfixConverter_DAngeloFrancis.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="InfixConverter_DAngeloFrancis.py" />
+    <Compile Include="infix_converter.py" />
+    <Compile Include="main.py" />
+    <Compile Include="postfix_evaluator.py" />
+    <Compile Include="stack.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
